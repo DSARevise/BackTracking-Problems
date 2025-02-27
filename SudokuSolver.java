@@ -1,4 +1,7 @@
 //find the missing elements of sodoku 
+//rules every col should have only unique value
+//every row should have unique value
+// grid should have 9 values and each value should be unique 3*3
 public class SudokuSolver {
 	public static void printBoard(char[][] board) {
 		for (int i = 0; i < board.length; i++) {
